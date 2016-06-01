@@ -15,11 +15,11 @@ static XViewControllerRouter *_router = NULL;
 
 @implementation XViewControllerRouter (Convenience)
 
-+ (NSArray *)pushViewController:(UIViewController *)viewController {
++ (NSArray *)push:(UIViewController *)viewController {
     return [[XViewControllerRouter router] routeTo:[XRouteTarget targetWithViewController:viewController]];
 }
 
-+ (NSArray *)popToViewController:(UIViewController *)viewController{
++ (NSArray *)popTo:(UIViewController *)viewController{
     return [[XViewControllerRouter router] routeTo:[XRouteTarget targetWithViewController:viewController]];
 }
 
@@ -414,7 +414,7 @@ static XViewControllerRouter *_router = NULL;
 
 @implementation XRouteTarget
 
-- (id)init{
+- (instancetype)init{
     return [self initWithViewController:nil path:nil];
 }
 

@@ -20,6 +20,8 @@
 		2173E8831CFEC5E600E9EAFF /* VC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8821CFEC5E600E9EAFF /* VC2.m */; };
 		2173E8861CFEC5ED00E9EAFF /* VC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8851CFEC5ED00E9EAFF /* VC3.m */; };
 		2173E8891CFEC5F300E9EAFF /* VC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8881CFEC5F300E9EAFF /* VC4.m */; };
+		2173E88F1CFECF9400E9EAFF /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E88E1CFECF9400E9EAFF /* LoginRequest.m */; };
+		2173E8A11CFEE3BE00E9EAFF /* ButtonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8A01CFEE3BE00E9EAFF /* ButtonFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		2173E8851CFEC5ED00E9EAFF /* VC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC3.m; sourceTree = "<group>"; };
 		2173E8871CFEC5F300E9EAFF /* VC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC4.h; sourceTree = "<group>"; };
 		2173E8881CFEC5F300E9EAFF /* VC4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC4.m; sourceTree = "<group>"; };
+		2173E88D1CFECF9400E9EAFF /* LoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequest.h; sourceTree = "<group>"; };
+		2173E88E1CFECF9400E9EAFF /* LoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequest.m; sourceTree = "<group>"; };
+		2173E89F1CFEE3BE00E9EAFF /* ButtonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonFactory.h; sourceTree = "<group>"; };
+		2173E8A01CFEE3BE00E9EAFF /* ButtonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,14 @@
 				2173E87A1CFE973A00E9EAFF /* Core */,
 				2173E84A1CFE934000E9EAFF /* AppDelegate.h */,
 				2173E84B1CFE934000E9EAFF /* AppDelegate.m */,
+				2173E87E1CFEC4AA00E9EAFF /* VC1.h */,
+				2173E87F1CFEC4AA00E9EAFF /* VC1.m */,
+				2173E8811CFEC5E600E9EAFF /* VC2.h */,
+				2173E8821CFEC5E600E9EAFF /* VC2.m */,
+				2173E8841CFEC5ED00E9EAFF /* VC3.h */,
+				2173E8851CFEC5ED00E9EAFF /* VC3.m */,
+				2173E8871CFEC5F300E9EAFF /* VC4.h */,
+				2173E8881CFEC5F300E9EAFF /* VC4.m */,
 				2173E84D1CFE934000E9EAFF /* ViewController.h */,
 				2173E84E1CFE934000E9EAFF /* ViewController.m */,
 				2173E8501CFE934000E9EAFF /* Main.storyboard */,
@@ -126,6 +140,10 @@
 				2173E8551CFE934000E9EAFF /* LaunchScreen.storyboard */,
 				2173E8581CFE934000E9EAFF /* Info.plist */,
 				2173E8471CFE934000E9EAFF /* Supporting Files */,
+				2173E88D1CFECF9400E9EAFF /* LoginRequest.h */,
+				2173E88E1CFECF9400E9EAFF /* LoginRequest.m */,
+				2173E89F1CFEE3BE00E9EAFF /* ButtonFactory.h */,
+				2173E8A01CFEE3BE00E9EAFF /* ButtonFactory.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -161,14 +179,6 @@
 			children = (
 				2173E87B1CFE974700E9EAFF /* XViewControllerRouter.h */,
 				2173E87C1CFE974700E9EAFF /* XViewControllerRouter.m */,
-				2173E87E1CFEC4AA00E9EAFF /* VC1.h */,
-				2173E87F1CFEC4AA00E9EAFF /* VC1.m */,
-				2173E8811CFEC5E600E9EAFF /* VC2.h */,
-				2173E8821CFEC5E600E9EAFF /* VC2.m */,
-				2173E8841CFEC5ED00E9EAFF /* VC3.h */,
-				2173E8851CFEC5ED00E9EAFF /* VC3.m */,
-				2173E8871CFEC5F300E9EAFF /* VC4.h */,
-				2173E8881CFEC5F300E9EAFF /* VC4.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -310,8 +320,10 @@
 				2173E8861CFEC5ED00E9EAFF /* VC3.m in Sources */,
 				2173E87D1CFE974700E9EAFF /* XViewControllerRouter.m in Sources */,
 				2173E8801CFEC4AA00E9EAFF /* VC1.m in Sources */,
+				2173E8A11CFEE3BE00E9EAFF /* ButtonFactory.m in Sources */,
 				2173E8831CFEC5E600E9EAFF /* VC2.m in Sources */,
 				2173E8891CFEC5F300E9EAFF /* VC4.m in Sources */,
+				2173E88F1CFECF9400E9EAFF /* LoginRequest.m in Sources */,
 				2173E84C1CFE934000E9EAFF /* AppDelegate.m in Sources */,
 				2173E8491CFE934000E9EAFF /* main.m in Sources */,
 			);

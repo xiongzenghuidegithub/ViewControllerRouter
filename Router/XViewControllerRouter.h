@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 @import UIKit;
 
-
 /**
  *  TabBarController or 自定义容器类VC
  *  需要实现这个协议，在跳转时会调用该协议要求的方法
@@ -103,9 +102,9 @@
 
 @interface XViewControllerRouter (Convenience)
 
-+ (NSArray *)pushViewController:(UIViewController *)viewController;
++ (NSArray *)push:(UIViewController *)viewController;
 
-+ (NSArray *)popToViewController:(UIViewController *)viewController;
++ (NSArray *)popTo:(UIViewController *)viewController;
 
 + (NSArray *)pop;
 

@@ -7,21 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "LoginRequest.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong)  LoginRequest *req;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self callApi];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)callApi {
+    //1.
+    _req = [[LoginRequest alloc] initWithUsername:@"zhangsan" password:@"12345"];
+    
+    //2.
+    [_req startWithSuccess:^(LoginRequest *request) {
+        //success
+    } fail:^(LoginRequest *request) {
+        //failt
+    }];
 }
 
 @end

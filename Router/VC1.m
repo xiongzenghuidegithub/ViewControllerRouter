@@ -36,7 +36,11 @@
         [item setTitleTextAttributes:dict2 forState:UIControlStateSelected];
     }
     
-    [XViewControllerRouter pushViewController:tabvc];
+//    [XViewControllerRouter pushViewController:tabvc];
+    
+//    [XViewControllerRouter ]
+    
+    
 }
 
 @end
