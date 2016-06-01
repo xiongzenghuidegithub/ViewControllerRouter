@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2173E8491CFE934000E9EAFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8481CFE934000E9EAFF /* main.m */; };
+		2173E84C1CFE934000E9EAFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E84B1CFE934000E9EAFF /* AppDelegate.m */; };
+		2173E84F1CFE934000E9EAFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E84E1CFE934000E9EAFF /* ViewController.m */; };
+		2173E8521CFE934000E9EAFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2173E8501CFE934000E9EAFF /* Main.storyboard */; };
+		2173E8541CFE934000E9EAFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2173E8531CFE934000E9EAFF /* Assets.xcassets */; };
+		2173E8571CFE934000E9EAFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2173E8551CFE934000E9EAFF /* LaunchScreen.storyboard */; };
+		2173E8621CFE934000E9EAFF /* RouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E8611CFE934000E9EAFF /* RouterTests.m */; };
+		2173E86D1CFE934000E9EAFF /* RouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2173E86C1CFE934000E9EAFF /* RouterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2173E85E1CFE934000E9EAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2173E83C1CFE934000E9EAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2173E8431CFE934000E9EAFF;
+			remoteInfo = Router;
+		};
+		2173E8691CFE934000E9EAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2173E83C1CFE934000E9EAFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2173E8431CFE934000E9EAFF;
+			remoteInfo = Router;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2173E8441CFE934000E9EAFF /* Router.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Router.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173E8481CFE934000E9EAFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2173E84A1CFE934000E9EAFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2173E84B1CFE934000E9EAFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2173E84D1CFE934000E9EAFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2173E84E1CFE934000E9EAFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2173E8511CFE934000E9EAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2173E8531CFE934000E9EAFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2173E8561CFE934000E9EAFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2173E8581CFE934000E9EAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2173E85D1CFE934000E9EAFF /* RouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173E8611CFE934000E9EAFF /* RouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterTests.m; sourceTree = "<group>"; };
+		2173E8631CFE934000E9EAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2173E8681CFE934000E9EAFF /* RouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2173E86C1CFE934000E9EAFF /* RouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouterUITests.m; sourceTree = "<group>"; };
+		2173E86E1CFE934000E9EAFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2173E8411CFE934000E9EAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E85A1CFE934000E9EAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E8651CFE934000E9EAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2173E83B1CFE934000E9EAFF = {
+			isa = PBXGroup;
+			children = (
+				2173E8461CFE934000E9EAFF /* Router */,
+				2173E8601CFE934000E9EAFF /* RouterTests */,
+				2173E86B1CFE934000E9EAFF /* RouterUITests */,
+				2173E8451CFE934000E9EAFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2173E8451CFE934000E9EAFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2173E8441CFE934000E9EAFF /* Router.app */,
+				2173E85D1CFE934000E9EAFF /* RouterTests.xctest */,
+				2173E8681CFE934000E9EAFF /* RouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2173E8461CFE934000E9EAFF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2173E84A1CFE934000E9EAFF /* AppDelegate.h */,
+				2173E84B1CFE934000E9EAFF /* AppDelegate.m */,
+				2173E84D1CFE934000E9EAFF /* ViewController.h */,
+				2173E84E1CFE934000E9EAFF /* ViewController.m */,
+				2173E8501CFE934000E9EAFF /* Main.storyboard */,
+				2173E8531CFE934000E9EAFF /* Assets.xcassets */,
+				2173E8551CFE934000E9EAFF /* LaunchScreen.storyboard */,
+				2173E8581CFE934000E9EAFF /* Info.plist */,
+				2173E8471CFE934000E9EAFF /* Supporting Files */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2173E8471CFE934000E9EAFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2173E8481CFE934000E9EAFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2173E8601CFE934000E9EAFF /* RouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2173E8611CFE934000E9EAFF /* RouterTests.m */,
+				2173E8631CFE934000E9EAFF /* Info.plist */,
+			);
+			path = RouterTests;
+			sourceTree = "<group>";
+		};
+		2173E86B1CFE934000E9EAFF /* RouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2173E86C1CFE934000E9EAFF /* RouterUITests.m */,
+				2173E86E1CFE934000E9EAFF /* Info.plist */,
+			);
+			path = RouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2173E8431CFE934000E9EAFF /* Router */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2173E8711CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "Router" */;
+			buildPhases = (
+				2173E8401CFE934000E9EAFF /* Sources */,
+				2173E8411CFE934000E9EAFF /* Frameworks */,
+				2173E8421CFE934000E9EAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Router;
+			productName = Router;
+			productReference = 2173E8441CFE934000E9EAFF /* Router.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2173E85C1CFE934000E9EAFF /* RouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2173E8741CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "RouterTests" */;
+			buildPhases = (
+				2173E8591CFE934000E9EAFF /* Sources */,
+				2173E85A1CFE934000E9EAFF /* Frameworks */,
+				2173E85B1CFE934000E9EAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2173E85F1CFE934000E9EAFF /* PBXTargetDependency */,
+			);
+			name = RouterTests;
+			productName = RouterTests;
+			productReference = 2173E85D1CFE934000E9EAFF /* RouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2173E8671CFE934000E9EAFF /* RouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2173E8771CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "RouterUITests" */;
+			buildPhases = (
+				2173E8641CFE934000E9EAFF /* Sources */,
+				2173E8651CFE934000E9EAFF /* Frameworks */,
+				2173E8661CFE934000E9EAFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2173E86A1CFE934000E9EAFF /* PBXTargetDependency */,
+			);
+			name = RouterUITests;
+			productName = RouterUITests;
+			productReference = 2173E8681CFE934000E9EAFF /* RouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2173E83C1CFE934000E9EAFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiongzenghui;
+				TargetAttributes = {
+					2173E8431CFE934000E9EAFF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8L2242B2XJ;
+					};
+					2173E85C1CFE934000E9EAFF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8L2242B2XJ;
+						TestTargetID = 2173E8431CFE934000E9EAFF;
+					};
+					2173E8671CFE934000E9EAFF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8L2242B2XJ;
+						TestTargetID = 2173E8431CFE934000E9EAFF;
+					};
+				};
+			};
+			buildConfigurationList = 2173E83F1CFE934000E9EAFF /* Build configuration list for PBXProject "Router" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2173E83B1CFE934000E9EAFF;
+			productRefGroup = 2173E8451CFE934000E9EAFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2173E8431CFE934000E9EAFF /* Router */,
+				2173E85C1CFE934000E9EAFF /* RouterTests */,
+				2173E8671CFE934000E9EAFF /* RouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2173E8421CFE934000E9EAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173E8571CFE934000E9EAFF /* LaunchScreen.storyboard in Resources */,
+				2173E8541CFE934000E9EAFF /* Assets.xcassets in Resources */,
+				2173E8521CFE934000E9EAFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E85B1CFE934000E9EAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E8661CFE934000E9EAFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2173E8401CFE934000E9EAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173E84F1CFE934000E9EAFF /* ViewController.m in Sources */,
+				2173E84C1CFE934000E9EAFF /* AppDelegate.m in Sources */,
+				2173E8491CFE934000E9EAFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E8591CFE934000E9EAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173E8621CFE934000E9EAFF /* RouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2173E8641CFE934000E9EAFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2173E86D1CFE934000E9EAFF /* RouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2173E85F1CFE934000E9EAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2173E8431CFE934000E9EAFF /* Router */;
+			targetProxy = 2173E85E1CFE934000E9EAFF /* PBXContainerItemProxy */;
+		};
+		2173E86A1CFE934000E9EAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2173E8431CFE934000E9EAFF /* Router */;
+			targetProxy = 2173E8691CFE934000E9EAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2173E8501CFE934000E9EAFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2173E8511CFE934000E9EAFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2173E8551CFE934000E9EAFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2173E8561CFE934000E9EAFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2173E86F1CFE934000E9EAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2173E8701CFE934000E9EAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2173E8721CFE934000E9EAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Router/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.Router;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2173E8731CFE934000E9EAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Router/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.Router;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2173E8751CFE934000E9EAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.RouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Router.app/Router";
+			};
+			name = Debug;
+		};
+		2173E8761CFE934000E9EAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.RouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Router.app/Router";
+			};
+			name = Release;
+		};
+		2173E8781CFE934000E9EAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.RouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Router;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2173E8791CFE934000E9EAFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xzh.RouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Router;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2173E83F1CFE934000E9EAFF /* Build configuration list for PBXProject "Router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2173E86F1CFE934000E9EAFF /* Debug */,
+				2173E8701CFE934000E9EAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2173E8711CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "Router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2173E8721CFE934000E9EAFF /* Debug */,
+				2173E8731CFE934000E9EAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2173E8741CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "RouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2173E8751CFE934000E9EAFF /* Debug */,
+				2173E8761CFE934000E9EAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2173E8771CFE934000E9EAFF /* Build configuration list for PBXNativeTarget "RouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2173E8781CFE934000E9EAFF /* Debug */,
+				2173E8791CFE934000E9EAFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2173E83C1CFE934000E9EAFF /* Project object */;
+}
