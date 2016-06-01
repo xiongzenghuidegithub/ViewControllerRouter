@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "VC1.h"
+#import "VC2.h"
+#import "VC3.h"
+#import "VC4.h"
+
+#import "XViewControllerRouter.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +22,38 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //1.
+    UITabBarController *tabvc = [[UITabBarController alloc] init];
+    UIViewController *vc1 = [VC1 new];
+    UIViewController *vc2 = [VC2 new];
+    UIViewController *vc3 = [VC3 new];
+    UIViewController *vc4 = [VC4 new];
+    tabvc.viewControllers = @[vc1, vc2, vc3, vc4];
+    
+    for(int i=0; i<tabvc.tabBar.items.count; i++) {
+        UITabBarItem *item = [tabvc.tabBar.items objectAtIndex:i];
+        
+        item.title = [NSString stringWithFormat:@"子栏目%d",i];
+        
+        NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor grayColor],UITextAttributeTextColor, nil];
+        [item setTitleTextAttributes:dict forState:UIControlStateNormal];
+        
+        NSDictionary *dict2 = [NSDictionary dictionaryWithObjectsAndKeys:[UIColor redColor],
+                               UITextAttributeTextColor,nil];
+        [item setTitleTextAttributes:dict2 forState:UIControlStateSelected];
+    }
+    
+    //2.
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tabvc];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    
+    //3.
+    [XViewControllerRouter router].rootVC = nav;
+    
     return YES;
 }
 
